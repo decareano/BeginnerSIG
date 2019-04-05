@@ -121,6 +121,19 @@ space below.
 # Add (or edit) python code below this comment block
 
 
+def first(name):
+   name = "Testing"
+   return name[0]
+
+def last(name):
+    name = "Testing"
+    return name[-1]
+
+def first1(test):
+    if not test:
+        print("")
+
+
 # DO NOT EDIT BELOW THIS LINE
 # Add (or edit) python code above this comment block
 
