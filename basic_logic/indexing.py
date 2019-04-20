@@ -120,19 +120,23 @@ space below.
 # DO NOT EDIT ABOVE THIS LINE
 # Add (or edit) python code below this comment block
 
-
+   
 def first(name):
-   name = "Testing"
-   return name[0]
+    if name: 
+        return name[0]
 
 def last(name):
-    name = "Testing"
-    return name[-1]
+    if name:
+        return name[-1]
 
-def first1(test):
-    if not test:
-        print("")
+def even_indexes(s):
+   return s[::2]
 
+def odd_indexes(s):
+    return s[1::2]
+
+def reversed_string(s):
+    return s[::-1]
 
 # DO NOT EDIT BELOW THIS LINE
 # Add (or edit) python code above this comment block
